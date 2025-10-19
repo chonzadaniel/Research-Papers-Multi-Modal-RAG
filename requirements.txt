@@ -1,0 +1,11 @@
+streamlit
+crewai
+crewai-tools
+strands-agents-builder 
+strands-agents-tools 
+pymupdf
+python-docx
+pyyaml
+openai
+PyMuPDF
+
