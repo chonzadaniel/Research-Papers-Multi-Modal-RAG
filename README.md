@@ -3,7 +3,7 @@
 This Streamlit-powered application enables **researchers, developers, and AI enthusiasts** to explore cutting-edge LLM and attention mechanism research papers using **Retrieval-Augmented Generation (RAG)** enhanced with **web search integration**. The system loads academic papers (PDFs), extracts and embeds their content using OpenAI models, and allows users to query them via a dynamic conversational interface.
 
 
-## 🚀 Features
+# Features
 
 - ✅ **Multimodal RAG**: Handles PDF documents with both text and tables
 - ✅ **Integrated Web Search**: Extends RAG context with fresh knowledge from the internet
@@ -15,7 +15,7 @@ This Streamlit-powered application enables **researchers, developers, and AI ent
 - ✅ **Local Deployment Ready**
 
 
-## File Structure
+# File Structure
 
 ```bash
 ├── openai_chromadb_rag_app.py       # Main Streamlit App
@@ -32,7 +32,7 @@ This Streamlit-powered application enables **researchers, developers, and AI ent
 ```
 
 
-## 🧪 How It Works
+# How It Works
 
 1. **Data Ingestion**  
    PDFs are loaded, parsed (text and tables), and chunked for embedding.
@@ -49,7 +49,7 @@ This Streamlit-powered application enables **researchers, developers, and AI ent
 5. **Streamlit UI**  
    Offers a clean, scrollable chat interface for querying and exploring results.
 
-## 📦 Setup & Installation
+# 📦 Setup & Installation
 
 ```bash
 # 1. Clone the repository
@@ -67,30 +67,30 @@ pip install -r requirements.txt
 streamlit run openai_chromadb_rag_app.py
 ```
 
-## 🧠 Example Queries You Can Ask
+# 🧠 Example Queries You Can Ask
 
 - “What architecture was proposed in the Mistral paper?”
 - “Summarize the GPT-4 training methodology.”
 - “Compare Gemini’s retrieval techniques with InstructGPT.”
 - “What is the attention mechanism described in the 2017 Transformer paper?”
 
-## Limitations
+# Limitations
 - Only PDF research papers are supported in the current version
 - Web search is basic and may need rate-limiting or proxy setup
 - OpenAI API is required (ensure your keys are loaded in `.env`)
 
-## 🤝 Acknowledgments
+# 🤝 Acknowledgments
 - [OpenAI](https://openai.com/) – for embeddings & chat models
 - [LangChain](https://www.langchain.com/) – used under the hood for RAG workflows
 - [ChromaDB](https://www.trychroma.com/) – local vector store
 - Research papers from [arXiv.org](https://arxiv.org/), [Google DeepMind](https://deepmind.google/) & [OpenAI](https://openai.com/research)
 
-## Future Outlook
+# Future Outlook
 - Add support for images/diagrams (e.g., via BLIP or CLIP)
 - Integrate with LangSmith or WandB for observability
 - Enable user authentication (multi-user chat interface)
 - Deploy on HuggingFace Spaces or Streamlit Cloud
 
-## License
+# License
 
 MIT License — see `LICENSE` file for details.
